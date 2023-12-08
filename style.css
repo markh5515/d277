@@ -1,0 +1,120 @@
+
+#main {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 20%;
+  position: absolute;
+  width: 40%;
+  height: 85%;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#aside {
+  border: 2px solid black;
+  width: 20%;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  float: left;
+}
+#table {
+  width: 50%;
+  margin-left: 1%;
+  margin-top: 230px; 
+  position: absolute;
+  z-index: 0;
+  right: 1px;
+  max-width: 22%;
+}
+#mgt1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  object-position: center;
+  overflow-wrap: normal;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 20px;
+  position: absolute;
+  width: 40%;
+  height: 55%;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#street {
+  margin-top: 140px; 
+  margin-left: 0px;
+}
+
+#fun {
+  border: 2px solid black;
+  width: 25%;
+  height: auto;
+  padding: 2px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 250px;
+}
+#list {
+  margin-left: 1px;
+  margin-top: 300px;
+  position: absolute;
+  z-index: 2;
+  right: 1px;
+  max-width: 20%;
+}
+.navbar {
+  z-index: 9000;
+}
+#top5 {
+  width: 50%;
+  margin-top: 450px; 
+  position: absolute;
+  z-index: 0;
+  right: 1px;
+  max-width: 22%;
+}
+#blink:hover { 
+  transform: scale(1.2);
+}
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+background: teal;
+border: 1px solid silver;
+}
+.mail h2 {
+margin-left: 38px;
+color: white;
+margin-top: 10%;
+}
+input {
+font-size: 20pt;
+}
+input:focus,
+textarea:focus {
+background-color: lightblue;
+}
+input validate {
+  font-size: 12pt;
+}
+.rq {
+color: #ff0000;
+font-size: 10pt;
+}
+#city:hover {
+  color: rgb(3, 255, 79);
+  text-decoration: double; 
+  text-decoration: wavy;
+  text-emphasis-style: filled;
+}
